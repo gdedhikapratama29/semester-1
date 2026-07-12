@@ -37,11 +37,38 @@
     border-radius: 8px;
 }
 
-.h1-content,
-.p-content {
+.h1-content {   
     text-align: center;
     font-size: 55px;
     color: #fff;
+}
+
+.p-content {
+    width: 600px;
+    height: 480px;
+    font-size: 30px;
+    display: flex;
+    background-color: #444;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 50px;
+    border-radius: 70px;
+}
+
+.container-p {
+    width: 800px;
+    height: 480px;
+    font-size: 30px;
+    display: flex;
+    background-color: #444;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    gap: 20px;
+    border-radius: 70px;
 }
 
 .container-content {
